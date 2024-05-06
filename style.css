@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#title {
+    background-image: url('images/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: justify;
+    color: white;
+    padding: 5% 10%;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+
+
+.col-lg-6 img {
+    height: 110%;
+    /* margin-left: 15%; */
+    margin-top: 10%;
+    animation: popUp 2.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+    opacity: 0;
+}
+@keyframes popUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.col-lg-6 #hello {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top:90px;
+}
+
+#education,
+#skills {
+    text-align: center;
+    padding: 3% 10%;
+    color: #0081C9;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+   
+}
+
+#skills h5{
+    text-align: justify;
+}
+
+#education img,
+#skills img {
+    height: 130px;
+}
+
+#certificates,#projects {
+    background-image: url("images/download.jpg");
+    background-repeat: no-repeat;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 550px;
+    overflow: hidden; /* Ensure overflow is hidden */
+ 
+}
+#projects{
+    height:750px;
+}
+
+#certificates h1 {
+    padding-top: 30px;
+    font-size: 55px;
+}
+#projects h1 {
+    padding-top: 30px;
+    font-size: 55px;
+}
+
+#certificates img {
+    height: 450px;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 50px;
+  
+}
+#projects img {
+    height: 450px;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 50px;
+}
+
+#contact {
+    text-align: center;
+    /* background-image: url("images/download.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 110, 255);
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    overflow: hidden; /* Ensure overflow is hidden */
+    z-index: -2;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 20px;
+    padding: 2% 5%;
+    transition: 0.6s;
+}
+
+#contact .row {
+    line-height: 4;
+}
+
+#contact a:hover {
+    margin-left: 6px;
+    border: 1px solid #0081C9;
+    color: #0081C9;
+}
+
+#contact p {
+    line-height: 3;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 6.5%;
+    font-size: 2.5rem;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+.nav-item {
+    margin: 0 6px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.navbar-nav {
+    margin-right: 6.5%;
+}
